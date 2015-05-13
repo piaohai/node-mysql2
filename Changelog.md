@@ -1,4 +1,9 @@
-0.15.6 - 04/06/2015
+0.15.7 - 13/05/2015
+- prepared statements: always use headers from result set,
+  ignore prepare response that can be incorrect              #169
+- build: iojs 2.0
+
+0.15.6 - 04/05/2015
 - Include errno in error object                              #168
 - server: fix fields in OK and column header packets
   (fix errors when connecting with node-mysql)
